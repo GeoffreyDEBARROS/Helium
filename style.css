@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "inter";
+    src: url(/Inter-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'inter', sans-serif;
+    color: white;
+    background: rgb(56 56 56 / 98%);
+    overflow: hidden;
+}
+
+a {
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 18px 0 18px;
+}
+
+nav ul{
+    width: 49vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li a:hover {
+    color: rgb(41, 54, 231);
+}
+
+header {
+    height: 70vh;
+    padding: 0 18px 18px 18px;
+    display: flex;
+    align-items: center;
+}
+
+.left-header {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    
+    padding-right: 20px;
+}
+
+.left-header h1 {
+    font-size: 4rem;
+}
+
+.left-header span {
+    color: rgb(41, 54, 231);
+    font-size: 1.5rem;
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+
+.left-header p {
+    font-size: 0.7rem;
+}
+
+.right-header {
+    width: 50vw;
+}
+
+.header-img {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    background: rgb(28, 28, 28);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.info h4 {
+    padding-bottom: 10px;
+}
+
+.info ul {
+    text-align: center;
+    display: flex;
+    flex-direction: column;  
+}
+
+.info li
+ {
+    background: rgb(41, 54, 231);
+    height: 23px;
+    padding: 6px;
+    margin: 4px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info ul li a:hover {
+    color: rgb(56 56 56 / 98%);
+}
+
+.investors {
+    display: flex;
+    width: 60vw;
+    justify-content: center;
+}
+
+.investors ul {
+    display: flex;
+    align-items: center;
+}
+
+.investors li {
+    padding: 60px;
+}
